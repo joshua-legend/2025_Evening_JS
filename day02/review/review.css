@@ -1,0 +1,22 @@
+.black {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.grey {
+  background-color: #cdcdcd;
+  color: grey;
+  border: none;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-weight: bold;
+}

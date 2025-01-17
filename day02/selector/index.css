@@ -1,0 +1,25 @@
+/* button {
+  color: pink;
+  font-size: 20px;
+} */
+/* 
+h1 {
+  color: green;
+} */
+
+ol > li {
+  color: skyblue;
+}
+
+div > p {
+  color: orange;
+}
+
+div > p > span {
+  color: red;
+  font-weight: bold;
+}
+
+div > button {
+  color: red;
+}

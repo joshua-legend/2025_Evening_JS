@@ -1,0 +1,30 @@
+.card {
+  width: 350px;
+  height: 500px;
+  background-image: url("https://cdn.pixabay.com/photo/2018/04/05/13/08/water-3292794_1280.jpg");
+  background-size: cover;
+  border-radius: 8px;
+  padding: 15px 25px 0px 25px;
+}
+.card > h6 {
+  color: white;
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  margin: 0;
+}
+
+.card > h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.card > h5 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 10px;
+}
