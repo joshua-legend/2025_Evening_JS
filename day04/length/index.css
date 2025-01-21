@@ -1,0 +1,15 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: skyblue;
+}
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+.container2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: lemonchiffon;
+}

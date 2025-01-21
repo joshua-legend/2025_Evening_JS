@@ -1,0 +1,24 @@
+.greenbox {
+  display: inline-block;
+  background-color: green;
+  width: 400px;
+  height: 300px;
+}
+.bluebox {
+  display: inline-block;
+  background-color: blue;
+  width: 400px;
+  height: 300px;
+}
+.orangebox {
+  display: inline-block;
+  background-color: orange;
+  width: 400px;
+  height: 300px;
+}
+.redbox {
+  display: inline-block;
+  background-color: red;
+  width: 400px;
+  height: 300px;
+}
