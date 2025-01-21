@@ -1,0 +1,26 @@
+.card {
+  display: inline-block;
+  width: 200px;
+  margin-right: 30px;
+}
+
+.album {
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+  margin-bottom: 30px;
+}
+.album > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+/* strong - inline */
+.card > strong {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
