@@ -1,0 +1,14 @@
+.box {
+  display: inline-block;
+  width: 250px;
+  padding: 20px 0;
+  text-align: center;
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+
+.box:hover {
+  background-color: #233c84;
+  color: white;
+  transform: scale(1.05);
+}

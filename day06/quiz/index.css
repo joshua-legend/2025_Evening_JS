@@ -1,0 +1,28 @@
+.recruit {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+}
+
+.recruit::before {
+  content: " ";
+  width: 5px;
+  height: 20px;
+  background-color: #e5c046;
+  position: absolute;
+  right: -20px;
+  top: 4px;
+  transform: rotate(30deg);
+}
+
+/* .recruit::after {
+  content: " ";
+  width: 5px;
+  height: 20px;
+  background-color: #e5c046;
+  position: absolute;
+  right: -10px;
+  top: 4px;
+  transform: rotate(-45deg);
+} */
