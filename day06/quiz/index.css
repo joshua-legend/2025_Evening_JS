@@ -1,5 +1,8 @@
-.recruit {
+.box {
   text-align: center;
+  margin-top: 20px;
+}
+.recruit {
   font-size: 22px;
   font-weight: bold;
   position: relative;
@@ -8,7 +11,7 @@
 .recruit::before {
   content: " ";
   width: 5px;
-  height: 20px;
+  height: 25px;
   background-color: #e5c046;
   position: absolute;
   right: -20px;
@@ -20,7 +23,7 @@
 .recruit::after {
   content: " ";
   width: 5px;
-  height: 20px;
+  height: 25px;
   background-color: #e5c046;
   position: absolute;
   left: -20px;
