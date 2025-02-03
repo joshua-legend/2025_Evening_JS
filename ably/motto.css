@@ -1,0 +1,21 @@
+.motto {
+  background-color: #efefef;
+  padding: 100px 0;
+}
+
+.motto > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.motto > .contents > h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #757575;
+  line-height: 1.5;
+  text-align: center;
+}
+.motto > .contents > h3 > strong {
+  color: black;
+}

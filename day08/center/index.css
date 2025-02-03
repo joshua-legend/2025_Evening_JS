@@ -1,0 +1,16 @@
+section {
+  width: 100vw;
+  height: 100vh;
+}
+.first {
+  background-color: skyblue;
+}
+.second {
+  background-color: pink;
+}
+.contents {
+  border: 1px solid red;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
