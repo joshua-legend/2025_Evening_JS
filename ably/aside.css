@@ -1,0 +1,17 @@
+aside {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+aside > .recruit {
+  border: none;
+  border-radius: 10px;
+  background-color: #ff5160;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 10px;
+}
+aside > .recruit:hover {
+  background-color: #db3b57;
+}
