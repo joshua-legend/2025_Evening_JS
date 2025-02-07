@@ -1,0 +1,73 @@
+.teamculture > .contents {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.teamculture > .contents > .photoes {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.teamculture > .contents > .photoes > .album {
+  width: 100%;
+  height: 450px;
+}
+.teamculture > .contents > .photoes > .album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.teamculture > .contents > h6 {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+.teamculture > .contents > h2 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.teamculture > .contents > .culture {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.teamculture > .contents > .culture > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.teamculture > .contents > .culture > ul > strong {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.teamculture > .contents > .culture > ul > li {
+  color: #757575;
+  font-size: 18px;
+  list-style: disc;
+}
+
+.teamculture > .contents > .businessMore {
+  text-align: center;
+}
+
+.teamculture > .contents > .businessMore > .more {
+  background-color: #fff2ea;
+  color: #ff5160;
+  width: fit-content;
+  padding: 20px 100px;
+  border-radius: 10px;
+}
+
+.teamculture > .contents > .businessMore > .more:hover {
+  background-color: #ffe5dc;
+}
+
+/* .teamculture > .contents > .culture > ul > li::before {
+  content: "·";
+} */

@@ -18,39 +18,52 @@
 .business > .contents > article {
   width: 100%;
   display: flex;
-  gap: 50px;
+  gap: 30px;
+  margin-bottom: 50px;
 }
 .business > .contents > article > .card {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .business > .contents > article > .card > .album {
   width: 100%;
-  height: 500px;
-  margin-bottom: 10px;
+  height: 400px;
+  overflow: hidden;
 }
 .business > .contents > article > .card > .album > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.business > .contents > article > .card > .album > img:hover {
+  transform: scale(1.05);
 }
 
 .business > .contents > article > .card > p {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 .business > .contents > article > .card > span {
+  font-size: 16px;
   color: #757575;
-  font-size: 18px;
 }
-.business > .contents > .more {
+.business > .contents > div {
+  text-align: center;
+}
+
+.business > .contents > div > .more {
   background-color: #fff2ea;
   color: #ff5160;
   width: fit-content;
   padding: 20px 100px;
   border-radius: 10px;
 }
-.business > .contents > .more:hover {
+
+.business > .contents > div > .more:hover {
   background-color: #ffe5dc;
 }
