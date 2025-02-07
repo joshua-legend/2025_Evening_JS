@@ -30,6 +30,22 @@ header > nav > ul > li:hover {
   background-color: #efefef;
 }
 
+header > nav > .hamburger {
+  display: none;
+}
+
 .ably {
   color: #ff5160;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    max-width: 340px;
+  }
+  header > nav > ul {
+    display: none;
+  }
+  header > nav > .hamburger {
+    display: block;
+  }
 }

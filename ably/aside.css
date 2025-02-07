@@ -15,3 +15,15 @@ aside > .recruit {
 aside > .recruit:hover {
   background-color: #db3b57;
 }
+
+@media screen and (max-width: 480px) {
+  aside {
+    bottom: 20px;
+    right: 0px;
+    width: 100vw;
+    padding: 0 10px;
+  }
+  aside > .recruit {
+    width: 100%;
+  }
+}
