@@ -33,13 +33,16 @@
 const bus = +window.prompt("버스 노선 종류 선택(1~3)") - 1;
 const age = +window.prompt("승객의 나이 입력");
 
-const busName = ["시내버스", "광역버스", "마을버스"];
-const busCost = [1200, 2000, 1000];
+const busObject = [
+  { name: "시내버스", cost: 1200 },
+  { name: "광역버스", cost: 2000 },
+  { name: "마을버스", cost: 1000 },
+];
 
 if (age <= 7 || 65 <= age) {
-  window.console.log(`${busName[bus]} 무료입니다.`);
+  console.log("무료");
 } else if (8 <= age && age <= 19) {
-  window.console.log(`${busName[bus]} 30% 할인 ${busCost[bus] * 0.7}입니다.`);
+  console.log(`버스종류:${busObject[bus].name} 버스금액:${busObject[bus].cost * 0.7}`);
 } else {
-  window.console.log(`${busName[bus]} 정가 ${busCost[bus] * 1}입니다.`);
+  console.log(`버스종류:${busObject[bus].name} 버스금액:${busObject[bus].cost}`);
 }
