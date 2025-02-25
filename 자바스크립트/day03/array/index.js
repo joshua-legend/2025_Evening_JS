@@ -24,13 +24,9 @@ const [a, b] = icecream; // "엄마는 외계인", "뉴욕 치즈케이크"
 const bread = ["소금빵", "메론빵"];
 bread[2] = "소세지빵"; // 세번째 추가됨
 bread[3] = "소보로빵"; // 네번째 추가됨
-
-// window.console.log(bread);
 delete bread[1]; //메론빵 삭제  -> // 예약어 const,let,var,delete
-// window.console.log(bread);
 
 const drinks = ["콜라", "사이다", "환타", "탄산수"];
-
 // rest 연산자
 const [one, ...two] = drinks; // one => "콜라"
 // window.console.log(two);
@@ -44,5 +40,7 @@ const [red, ...restColor1] = color1;
 const [green, ...restColor2] = color2;
 // window.console.log(restColor1, restColor2);
 
+
+// destructuring 연산자
 const newColor = [...restColor1, ...restColor2];
 window.console.log(newColor);
