@@ -62,3 +62,5 @@ const car = {
     console.log(`현재 시속:${this.speed}`);
   },
 };
+
+// obj & function
