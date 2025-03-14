@@ -1,0 +1,53 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
+}
+
+.text {
+  display: flex;
+  color: white;
+  gap: 3px;
+}
+
+.checker {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.essetial {
+  color: #ebff00;
+}
+
+.unchecked {
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+}
+
+.checked {
+  border: 2px solid #ebff00;
+  color: black;
+  background-color: #ebff00;
+}
+
+.button {
+  width: 335px;
+  height: 52px;
+  border-radius: 50px;
+  border: none;
+}
+
+.unconfirm {
+  background-color: #6c6c6c;
+}
+.confirm {
+  background-color: #ebff00;
+}

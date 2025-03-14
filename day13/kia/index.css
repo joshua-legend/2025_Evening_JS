@@ -1,0 +1,22 @@
+.condition {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  border: 2px solid #daedbd;
+}
+.condition > div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #daedbd;
+}
+
+.condition > div:last-child {
+  border-right: 0px solid black;
+}
+
+.check {
+  background-color: black;
+  color: white;
+}

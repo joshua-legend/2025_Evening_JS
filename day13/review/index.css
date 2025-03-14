@@ -1,0 +1,53 @@
+.switch {
+  width: 40px;
+  height: 20px;
+  border-radius: 16px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+}
+.offColor {
+  background-color: #cdd0d2;
+}
+.onColor {
+  background-color: #5d7d2b;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 9999px;
+  transition: all 0.3s;
+}
+.offPosition {
+  transform: translateX(0px);
+}
+.onPosition {
+  transform: translateX(20px);
+}
+
+.text {
+  display: flex;
+  gap: 3px;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unchecked {
+  border: 2px solid #daedbd;
+  color: #daedbd;
+  background-color: white;
+}
+
+.checked {
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+}
