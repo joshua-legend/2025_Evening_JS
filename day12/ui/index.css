@@ -1,0 +1,32 @@
+span {
+  width: 20px;
+  height: 3px;
+  position: absolute;
+  transition: all 1s;
+
+  transform: rotate(0deg);
+}
+.first {
+  top: 10px;
+}
+.second {
+  top: 20px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+.reversedRotate {
+  transform: rotate(-45deg);
+}
+
+aside {
+  width: 10vw;
+  height: 100vh;
+  background-color: #28323c;
+  transition: all 1s;
+}
+
+.close {
+  width: 0px;
+}
