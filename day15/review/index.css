@@ -1,0 +1,29 @@
+.form {
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.eye {
+  background-color: transparent;
+  border: none;
+}
+
+.validation {
+  display: flex;
+  gap: 10px;
+}
+.validText {
+  font-weight: bold;
+  color: #efefef;
+}
+.pass {
+  color: lightgreen;
+}

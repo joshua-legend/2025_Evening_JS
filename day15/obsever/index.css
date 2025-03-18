@@ -1,0 +1,25 @@
+section {
+  height: 100vh;
+  border: 1px solid tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: skyblue;
+  transition: all 1s;
+}
+.hello {
+  font-size: 50px;
+  transition: all 1s;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+.fadeIn {
+  opacity: 1;
+}
