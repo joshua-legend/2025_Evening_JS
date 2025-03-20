@@ -1,0 +1,30 @@
+.banner {
+  background-color: #f7f8f9;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+.banner > .contents {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.banner > .skewer {
+  height: 100%;
+  width: 30%;
+  background-color: #00b8ff;
+  transform: skew(-30deg);
+  position: absolute;
+  top: 0px;
+  right: -10%;
+}
+
+.banner > .contents > h2 {
+  text-align: center;
+  line-height: 1.5;
+  color: #aaa;
+  font-size: 40px;
+}
+.banner > .contents > h2 > .special {
+  color: #00b8ff;
+}
