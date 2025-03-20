@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "SDGothicNeobTTF-fBd";
+  src: url("../fonts/SDGothicNeobTTF-fBd.woff2");
+}
+
+* {
+  font-family: "SDGothicNeobTTF-fBd";
+}

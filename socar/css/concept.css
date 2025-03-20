@@ -1,0 +1,50 @@
+.concept {
+  padding: 200px 0px;
+}
+
+.concept > .contents {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.concept > .contents > .concept__card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.concept > .contents > .concept__card > h2 {
+  font-size: 40px;
+  color: #374543;
+  margin-bottom: 16px;
+}
+.concept > .contents > .concept__card > p {
+  font-size: 20px;
+  color: #aaaaaa;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.concept > .contents > .concept__card > .photo {
+  width: 100%;
+  height: 100%;
+}
+.concept > .contents > .concept__card > .photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.concept > .contents > .concept__card > h2::after {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #00b8ff;
+  border-radius: 9999px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
